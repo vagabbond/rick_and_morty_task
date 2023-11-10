@@ -8,15 +8,24 @@ export const Main = () => {
   <Box
    component="main"
    sx={{
-    background: `url(${bg})`,
-    height: "345px",
-    backgroundRepeat: "no-repeat",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    flexDirection: "column",
    }}
   >
-   <Box>
+   <Box
+    sx={{
+     background: `url(${bg})`,
+     height: "345px",
+     backgroundRepeat: "no-repeat",
+     backgroundPositionY: "bottom",
+
+     display: "flex",
+     alignItems: "center",
+     justifyContent: "center",
+    }}
+   >
     <Typography
      sx={{
       color: "#202329",

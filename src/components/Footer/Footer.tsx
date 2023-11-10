@@ -65,7 +65,7 @@ export const Footer = () => {
       sx={{
        position: "absolute",
        top: "0px",
-       left: "0px",
+       left: "-5px",
        background:
         "linear-gradient(227deg, rgba(255, 255, 255, 0.80) -1.89%, rgba(255, 255, 255, 0.00) 98.53%)",
        filter: "blur(42px)",
